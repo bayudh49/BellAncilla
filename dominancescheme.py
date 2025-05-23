@@ -53,11 +53,11 @@ for ghz_sheet in ghz_sheets:
                 fid_diff = fid_ghz - fid_anc
 
                 if fid_diff > 1e-3:
-                    status = "GHZ Superior"
+                    status = "GHZ Unggul"
                 elif fid_diff < -1e-3:
-                    status = "Ancilla Superior"
+                    status = "Anc Unggul"
                 else:
-                    status = "Neutral"
+                    status = "Netral"
 
                 results.append({
                     "Noise Pair": suffix,
